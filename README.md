@@ -25,12 +25,14 @@ Tabela de conteúdos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-<!-- ts -->
-	* [MySQL](https://dev.mysql.com/downloads/)
-	* [PHP](https://www.php.net/) 7.4.21 ou superior
-	* [Composer](https://getcomposer.org/)
 
-<!-- te -->
+=================
+<!--ts-->
+   * [MySQL](https://dev.mysql.com/downloads/)
+   * [PHP](https://www.php.net/) 7.4.21 ou superior
+   * [Composer](https://getcomposer.org/)
+<!--te-->
+
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 <br>
