@@ -33,6 +33,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
       <p>php artisan migrate</p>
 
       <p>php artisan db:seed --class=UserSeeder</p>
+      
+      <p>php artisan key:generate</p>
 
       <p>php artisan serve</p>
    * Copie a url que irá surgir no terminal e abra em um navegador de sua preferência
