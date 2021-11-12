@@ -5,19 +5,9 @@
 </h4>
 
 
-Tabela de conteúdos
+Instruções
 =================
-<!--ts-->
-   * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
-   * [Tests](#testes)
-   * [Tecnologias](#tecnologias)
-<!--te-->
+
 
 ### Pré-requisitos
 
@@ -29,22 +19,26 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
    * [Composer](https://getcomposer.org/)
 <!--te-->
 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
 <br>
 <br>
 
 ### Configurações
 
-   * Após clonar o projeto, crie um banco de dados MySQL e substitua as informações do banco no arquivo ".env.example". Em seguida renomeie-o para ".env";
+   * Após clonar o projeto, crie um banco de dados MySQL e substitua as informações de acesso ao banco no arquivo ".env.example". Em seguida renomeie-o para ".env";
    * Abra a pasta do projeto no terminal e execute os comandos:
-      <!-- ts -->
       <p>composer update</p>
-      <!-- te -->
 
-      <!-- ts -->
       <p>composer install</p>
-      <!-- te -->
+
+      <p>php artisan migrate</p>
+
+      <p>php artisan db:seed --class=UserSeeder</p>
+
+      <p>php artisan serve</p>
+   * Copie a url que irá surgir no terminal e abra em um navegador de sua preferência
+   * Faça o login utlizando as credenciais:
+      * email: admin@admin.com
+      * senha: admin
 
 
 
